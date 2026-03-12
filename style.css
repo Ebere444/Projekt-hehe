@@ -108,3 +108,35 @@ textarea{
     padding: 5px;
     color: white;
 }
+
+table{
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px black solid;
+    padding: 5px;
+}
+
+/* Mobil */
+@media (max-width: 576px) {
+    td:nth-child(1){
+        font-weight: bold;
+        background-color: beige;
+    }
+    td{
+        display: block;
+        box-sizing: border-box;
+    }
+}
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 768px) {
+    
+}
+
+/* Pc */
+@media (min-width:769) and (max-width:1024px) {
+    
+}
