@@ -14,6 +14,11 @@ header{
     padding: 30px;
 }
 
+header > img{
+    display: none;
+    width: 50px;
+}
+
 footer{
     color: white;
     background-color: black;
@@ -24,7 +29,7 @@ footer{
     text-align: center;
 }
 
-#Nav-Ui{
+#NavUi{
     display: flex;
     gap: 10px;
     list-style: none;
@@ -128,6 +133,19 @@ td{
     td{
         display: block;
         box-sizing: border-box;
+    }
+    #image{
+        display: flex;
+    }
+    #NavUi{
+        display: none;
+    }
+    #NavUi.jelen{
+        display: flex;
+        flex-direction: column;
+    }
+    #image.jelen{
+        display: none;
     }
 }
 

@@ -1,5 +1,8 @@
-const a = document.getElementById("");
-const b = document.getElementById("");
-const c = document.getElementById("");
-const d = document.getElementById("");
+const image = document.getElementById("image");
+const NavUi = document.getElementById("NavUi");
 
+
+image.addEventListener("click", function(){
+    image.classList.toggle("jelen");
+    NavUi.classList.toggle("jelen");
+})
