@@ -1,2 +1,2 @@
 # Projekt-hehe
-Készítette: Dancza Milán és Solomon Eberenna
+Készítette: Dancza Milán, Solomon Eberenna, Nagy Kristóf
