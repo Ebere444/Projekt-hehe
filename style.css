@@ -45,6 +45,14 @@ code {
     
 }
 
+.DecolessCode{
+  background-color: #eeeeee;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+  padding: 0 3px;
+  color: black;
+}
+
 
 
 pre {
@@ -77,13 +85,16 @@ section{
     justify-content: space-between;
     padding: 10px;
     margin: 10px;
+
 }
 
-#Feladatok{
+
+
+#Eljarasok{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 section div p{
@@ -102,7 +113,6 @@ section h2{
     width: 300px;
     margin: 0 auto 0 auto;
 }
-
 
 textarea{
     width: 400px;
@@ -123,6 +133,7 @@ td{
     border: 1px black solid;
     padding: 5px;
 }
+
 
 /* Mobil */
 @media (max-width: 576px) {
@@ -146,6 +157,15 @@ td{
     }
     #image.jelen{
         display: none;
+    }
+    section{
+        flex-direction: column;
+        margin-bottom: 40px;   
+    }
+    .MetodusokOldalDivek{
+        border: solid black 1px;
+        margin-top: 20px;
+        padding: 10px;
     }
 }
 
