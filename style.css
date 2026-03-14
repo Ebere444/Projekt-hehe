@@ -117,23 +117,42 @@ textarea{
 table{
     border: solid black 1px;
     border-collapse: collapse;
+    font-size: 20px;
+    display: block;
 }
 
 td{
-    border: 1px black solid;
-    padding: 5px;
+    border: 2px black solid;
+    padding: 15px;
+    
+}
+
+th{
+    border: 2px black solid;
+    
 }
 
 
 /* Mobil */
 @media (max-width: 576px) {
-    td:nth-child(1){
-        font-weight: bold;
-        background-color: beige;
+
+    table{
+        color: white;
     }
+    
     td{
-        display: block;
+        display: flex;
+        flex-direction: column;
         box-sizing: border-box;
+        border: 3px rgb(255, 255, 255) solid;
+        background-color: rgb(73, 73, 73);
+    }
+
+    th{
+        display: flex;
+        flex-direction: column;
+        border: 3px rgb(255, 255, 255) solid;
+        background-color: rgb(0, 0, 0);
     }
     #image{
         display: flex;
