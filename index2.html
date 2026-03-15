@@ -6,25 +6,26 @@
     <title>C#</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="MetodusokOldal">
     <header>
         <h1>A C# metódusainak alapfogalmai</h1>
 
         <nav>
             <ul id="NavUi">
                 <li class="Nav-Links"><a href="index.html">Kezdőoldal</a></li>
-                <li class="Nav-Links"><a href="index2.html">Eljárások</a></li>
-                <li class="Nav-Links"><a href="index3.html">Függvények</a></li>
+                <li class="Nav-Links"><a href="index2.html">Metódusok</a></li>
+                <li class="Nav-Links"><a href="index3.html">Összehasonlítás</a></li>
             </ul>
         </nav>
         <img src="image-removebg-preview.png" alt="" id="image">
     </header>
 
     <main>
-        <h1>Metódusok</h1>
+        
         <section>
-            <div>
-                
+            
+            <div class="MetodusokOldalDivek">
+                <h1>Metódusok</h1>
                 <h2>Az eljárás</h2>
 
                 <p>Az eljárás egy olyan metódus a C# programozási nyelvben, amely nem ad vissza értéket. Az eljárások célja általában egy adott művelet végrehajtása, például egy szöveg kiírása a konzolra vagy egy feladat elvégzése a programban.</p>
@@ -51,7 +52,7 @@ static void Koszones()
                 <p>Ebben az esetben a program kiírja a konzolra a „Szia!” szöveget.</p>
             </div>
 
-            <div>
+            <div class="MetodusokOldalDivek">
                 <h2>A függvény</h2>
 
                 <p>A függvény egy olyan metódus, amely visszaad egy értéket. Ez azt jelenti, hogy a függvény elvégzi a feladatát, majd egy eredményt ad vissza a programnak.</p>
@@ -59,10 +60,10 @@ static void Koszones()
                 <p>A függvények visszatérési típusa lehet például:</p>
 
                 <ul>
-                    <li>int</li>
-                    <li>double</li>
-                    <li>string</li>
-                    <li>bool</li>
+                    <li>int (Pozitív és negatív egész számok)</li>
+                    <li>double (Pozitív és negatív valós számok)</li>
+                    <li>string (Szöveg)</li>
+                    <li>bool (Igaz és Hamis érték)</li>
                 </ul>
                
                 <p>A visszatérési értéket a return kulcsszó segítségével adjuk vissza.</p>
@@ -76,10 +77,9 @@ int Osszeadas(int a, int b)
 
                 <h2>A függvény használata:</h2>
 
-                <code>
-                    int eredmeny = Osszeadas(3, 5);
-                    Console.WriteLine(eredmeny);
-                </code>
+                <code>int eredmeny = Osszeadas(3, 5);</code>
+                <br><br>
+                <code>Console.WriteLine(eredmeny);</code>
                 
             </div>
             
@@ -89,7 +89,7 @@ int Osszeadas(int a, int b)
     </main>
 
     <footer>
-
+        <p><b>2026. 03. 12. Projekt-feladat</b></p>
     </footer>
     <script src="script.js"></script>
 </body>
