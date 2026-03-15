@@ -79,6 +79,7 @@ section{
     margin: 10px;
 }
 
+
 #Feladatok{
     display: flex;
     justify-content: center;
@@ -158,3 +159,4 @@ td{
 @media (min-width:769) and (max-width:1024px) {
     
 }
+
